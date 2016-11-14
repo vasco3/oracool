@@ -1,0 +1,2 @@
+# oracul
+Oracul questions game
