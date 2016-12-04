@@ -1,0 +1,29 @@
+{
+  "name": "oracul",
+  "version": "1.0.0",
+  "description": "Questions game",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasco3/oracul.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jorge Cuadra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasco3/oracul/issues"
+  },
+  "homepage": "https://github.com/vasco3/oracul#readme"
+}
