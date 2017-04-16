@@ -2,7 +2,6 @@
   "name": "oracul",
   "version": "1.0.0",
   "description": "Questions game",
-  "main": "index.js",
   "dependencies": {
     "next": "^1.2.3"
   },
