@@ -16,7 +16,7 @@ function initState() {
     input: '',
     isShiftOn: false,
     mode: Modes.PHRASE,
-    phrase: 'Oracul, tell me',
+    phrase: 'Oracool, tell me',
     phraseIndex: 0,
     showHelp: false,
   };
@@ -143,7 +143,7 @@ export default class extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
           />
-          <title>Oracul - Question Game</title>
+          <title>Oracool - Question Game</title>
           <meta
             name="description"
             content="A game about questions and answers."

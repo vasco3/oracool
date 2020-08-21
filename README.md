@@ -1,2 +1,3 @@
-# oracul
-Oracul questions game
+# Oracool
+
+Oracool questions game
