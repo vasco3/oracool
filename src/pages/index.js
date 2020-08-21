@@ -5,7 +5,7 @@
 import * as Utils from '../utils';
 import { make as Eye } from '../components/Eye.bs';
 import Head from 'next/head';
-import Instructions from '../components/Instructions';
+import { make as Instructions } from '../components/Instructions.bs';
 import KeyCodes from '../constants/key-codes';
 import Modes from '../constants/modes';
 import React from 'react';
