@@ -1,20 +1,48 @@
 {
-  "name": "oracul",
+  "name": "oracool",
   "version": "1.0.0",
   "description": "Questions game",
   "dependencies": {
-    "next": "^1.2.3"
+    "bs-react-spring": "^0.4.1",
+    "next": "^9.5.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-transpile-modules": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^4.2.20",
+    "reason-react": "^0.9.1",
+    "reason-recoil": "^0.10.0",
+    "recoil": "0.0.10",
+    "tailwindcss": "^1.7.3",
+    "three": "^0.119.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-platform": "^8.2.0",
+    "bs-react-testing-library": "^0.7.3",
+    "concurrently": "^5.3.0",
+    "cypress": "^5.0.0",
+    "jest": "^26.4.1",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0"
+  },
   "scripts": {
-    "build": "next build",
-    "dev": "next",
+    "build": "bsb -clean-world -make-world && next build",
+    "clean": "bsb -clean-world",
+    "cypress:open": "cypress open",
+    "dev": "concurrently \"bsb -clean-world -make-world -w\" \"next dev\"",
+    "dev:next": "next dev",
+    "dev:reason": "bsb -clean-world -make-world -w",
     "start": "next start",
-    "test": "test"
+    "test": "bsb -make-world && jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasco3/oracul.git"
+    "url": "git+https://github.com/vasco3/oracool.git"
   },
   "keywords": [
     "react"
@@ -22,7 +50,7 @@
   "author": "Jorge Cuadra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasco3/oracul/issues"
+    "url": "https://github.com/vasco3/oracool/issues"
   },
-  "homepage": "https://github.com/vasco3/oracul#readme"
+  "homepage": "https://github.com/vasco3/oracool#readme"
 }
